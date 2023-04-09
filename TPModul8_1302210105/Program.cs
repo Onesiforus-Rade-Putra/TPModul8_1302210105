@@ -8,7 +8,7 @@ public class Program
         double suhu = double.Parse(Console.ReadLine());
         Console.Write("Berapa hari mengalami gejala deman? : ");
         int hariDemam = int.Parse(Console.ReadLine());
-        if (CovidConfig.inputan(suhu, hariDemam))
+        if (covid.inputan(suhu, hariDemam))
         {
             Console.WriteLine(covid.CovidConfig.pesan_diterima);
         }
